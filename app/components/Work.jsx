@@ -27,7 +27,9 @@ var Work = React.createClass({
 
 						</ul>
 					</div>	
-				</div>	
+				</div>
+				<hr/>
+			        <p className = "text-center myPara">Site created using VsCode, React And Bootstrap. Inspired by <a className = "style-1" href = "https://sumairhamza.github.io" target = "_blank">Sumair Hamza</a></p>	
 			</div>	
 		);
 	}

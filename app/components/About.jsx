@@ -16,7 +16,7 @@ var About = React.createClass({
 			        <p className = "text-center">I am a Computer Scientist with interest in Web Development, currently working in emerging and wonderful stack called MERN (MongoDB, Express, React & Node JS).</p>
 			    </div>
 			     <hr/>
-			        <p className = "text-center myPara">Site created using VsCode, React And Bootstrap</p>
+			        <p className = "text-center myPara">Site created using VsCode, React And Bootstrap. Inspired by <a className = "style-1" href = "https://sumairhamza.github.io" target = "_blank">Sumair Hamza</a></p>
 		    </div>
 			
 		);

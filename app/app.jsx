@@ -8,13 +8,15 @@ var Main = require("Main");
 var Home = require("Home");
 var About = require("About");
 var Work = require("Work");
+var Contact = require("Contact");
 
 ReactDOM.render(
     <Router history = {hashHistory}>
   		<Route path="/" component = {Main} >
   			
   				<Route path= "about" component={About} />
-	  			<Route path= "work" component={Work} />
+          <Route path= "work" component={Work} />
+	  			<Route path= "contact" component={Contact} />
   			<IndexRoute component={Home}/>
   		
   		</Route>

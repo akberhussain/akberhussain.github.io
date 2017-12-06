@@ -12,7 +12,8 @@ module.exports = {
       Navigation: 'app/components/Navigation.jsx',
       Home: 'app/components/Home.jsx',
       About: 'app/components/About.jsx',
-      Work: 'app/components/Work.jsx'
+      Work: 'app/components/Work.jsx',
+      Contact: 'app/components/Contact.jsx'
     },
     extensions: ['', '.js', '.jsx']
   },

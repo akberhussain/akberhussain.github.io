@@ -63,6 +63,7 @@
 	var Home = __webpack_require__(224);
 	var About = __webpack_require__(225);
 	var Work = __webpack_require__(226);
+	var Contact = __webpack_require__(227);
 
 	ReactDOM.render(React.createElement(
 	  Router,
@@ -72,6 +73,7 @@
 	    { path: '/', component: Main },
 	    React.createElement(Route, { path: 'about', component: About }),
 	    React.createElement(Route, { path: 'work', component: Work }),
+	    React.createElement(Route, { path: 'contact', component: Contact }),
 	    React.createElement(IndexRoute, { component: Home })
 	  )
 	), document.getElementById('app'));
@@ -25523,6 +25525,16 @@
 												"Work"
 											)
 										),
+										" ",
+										React.createElement(
+											"li",
+											{ className: "nav-item" },
+											React.createElement(
+												"a",
+												{ className: "nav-link", href: "#/contact" },
+												"Contact"
+											)
+										),
 										React.createElement(
 											"li",
 											{ className: "nav-item" },
@@ -25624,14 +25636,19 @@
 					React.createElement(
 						"p",
 						{ className: "text-center" },
-						"I am a Software Engineer, with a love for Web Development. I've been working as a Full Stack developer for a few years, and then started a small business called Cic Hub that trains students to become a full stack developer. I am an occassional technical trainer, public speaker, designer and blogger.You can follow me on Facebook , Twitter and Git Hub to catch up on my latest work."
+						"I am a Computer Scientist with interest in Web Development, currently working in emerging and wonderful stack called MERN (MongoDB, Express, React & Node JS)."
 					)
 				),
 				React.createElement("hr", null),
 				React.createElement(
 					"p",
 					{ className: "text-center myPara" },
-					"Site created using VsCode, React And Bootstrap"
+					"Site created using VsCode, React And Bootstrap. Inspired by ",
+					React.createElement(
+						"a",
+						{ className: "style-1", href: "https://sumairhamza.github.io", target: "_blank" },
+						"Sumair Hamza"
+					)
 				)
 			);
 		}
@@ -25802,12 +25819,128 @@
 							)
 						)
 					)
+				),
+				React.createElement("hr", null),
+				React.createElement(
+					"p",
+					{ className: "text-center myPara" },
+					"Site created using VsCode, React And Bootstrap. Inspired by ",
+					React.createElement(
+						"a",
+						{ className: "style-1", href: "https://sumairhamza.github.io", target: "_blank" },
+						"Sumair Hamza"
+					)
 				)
 			);
 		}
 	});
 
 	module.exports = Work;
+
+/***/ }),
+/* 227 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	var React = __webpack_require__(1);
+
+	var Contact = React.createClass({
+		displayName: "Contact",
+
+
+		render: function render() {
+			return React.createElement(
+				"div",
+				null,
+				React.createElement(
+					"div",
+					{ className: "container" },
+					React.createElement(
+						"div",
+						{ className: "row" },
+						React.createElement(
+							"div",
+							{ className: "col-md-4 offset-md-2" },
+							React.createElement(
+								"div",
+								{ className: "img-thumbnail" },
+								React.createElement("img", { className: "img-responsive myImage", src: "myimages/me.jpg" })
+							)
+						),
+						React.createElement(
+							"div",
+							{ className: "col-md-4" },
+							React.createElement(
+								"div",
+								{ className: "media-body" },
+								React.createElement("br", null),
+								React.createElement(
+									"h3",
+									{ className: "mt-0" },
+									"Akber Hussain"
+								),
+								React.createElement("br", null),
+								React.createElement(
+									"h5",
+									{ className: "mt-0" },
+									"Contact"
+								),
+								React.createElement(
+									"p",
+									null,
+									"03003083099"
+								),
+								React.createElement(
+									"h5",
+									{ className: "mt-0" },
+									"Address"
+								),
+								React.createElement(
+									"p",
+									null,
+									"House# C119, Sharif Square Hussainabad, Hyderabad."
+								),
+								React.createElement(
+									"h5",
+									{ className: "mt-0" },
+									"Facebook"
+								),
+								React.createElement(
+									"a",
+									{ className: "style-1 myStyle", href: "https://www.facebook.com/akberlaghari", target: "_blank" },
+									"Akber Hussain"
+								),
+								React.createElement(
+									"h5",
+									{ className: "mt-0" },
+									"Github"
+								),
+								React.createElement(
+									"a",
+									{ className: "style-1 myStyle", href: "https://www.github.com/akberhussain", target: "_blank" },
+									"Akber Hussain"
+								)
+							)
+						)
+					)
+				),
+				React.createElement("hr", null),
+				React.createElement(
+					"p",
+					{ className: "text-center myPara" },
+					"Site created using VsCode, React And Bootstrap. Inspired by ",
+					React.createElement(
+						"a",
+						{ className: "style-1", href: "https://sumairhamza.github.io", target: "_blank" },
+						"Sumair Hamza"
+					)
+				)
+			);
+		}
+	});
+
+	module.exports = Contact;
 
 /***/ })
 /******/ ]);

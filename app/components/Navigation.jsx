@@ -24,6 +24,8 @@ var NavBar = React.createClass({
 								      </li>
 								      <li className="nav-item">
 								        <a className="nav-link" href="#/work">Work</a>
+								      </li> <li className="nav-item">
+								        <a className="nav-link" href="#/contact">Contact</a>
 								      </li>
 								      <li className="nav-item">
 								        <a className="nav-link" href="https://github.com/akberhussain" target='_blank'>Github</a>
